@@ -1,0 +1,57 @@
+body {
+    background-image: url(IMAGES/grid-725271_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    font: color:white;
+}
+
+.box1 {
+    width: 30%;
+    margin: 10px;
+    background-color: whitesmoke;
+    right: 3%;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50px;
+    opacity: 0.8;
+    overflow: hidden
+}
+
+.box1 img {
+    width: 100%;
+}
+
+.box2 img {
+    background-color: whitesmoke;
+    width: 300px;
+}
+.box2{
+    
+    width: 50%;
+    margin: 10px;
+    background-color: whitesmoke;
+    right: 3%;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    border-radius: 50px;
+    opacity: 0.8;
+    overflow: hidden;
+    font-family: 'Dancing Script', cursive
+}
+
+.box3 {
+    width: 50%;
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+}
+
+.box3 img {
+    width: 300px;
+    position: absolute;
+}
