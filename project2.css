@@ -28,12 +28,12 @@ body {
 .box2 img {
     background-color: whitesmoke;
     width: 300px;
-    margin: 50px;
+    margin: 10px;
 }
 .box2{
     
     width: 50%;
-    margin: 50px;
+    margin: 30px;
     background-color: whitesmoke;
     right: 3%;
     text-align: center;
