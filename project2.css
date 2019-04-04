@@ -32,16 +32,16 @@ body {
 .box2{
     
     width: 50%;
-    margin: 10px;
+    margin: 20px;
     background-color: whitesmoke;
     right: 3%;
     text-align: center;
     display: inline-block;
-    position: relative;
+    position: absolute;
     border-radius: 50px;
     opacity: 0.8;
     overflow: hidden;
-    font-family: 'Dancing Script', cursive
+    font-family: 'Dancing Script', cursive;
 }
 
 .box3 {
