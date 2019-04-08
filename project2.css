@@ -1,13 +1,27 @@
 body {
-    background-image: url(grid-725271_1280.jpg);
+    background-image: url(IMAGES/grid-725271_1280.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
     font-family: sans-serif;
-    font: color:white;
+    margin-top: 100px;
 }
 
+#section1{position: fixed; 
+          background-color: lightblue;
+          margin: 20px;
+          top: 0;
+          right: 0;
+          left: 0;
+          text-align: center;
+          z-index: 99;
+          font-size: 24px;
+          border: solid 1px black;
+          box-sizing: border-box;
+          border-radius: 50px;
+          opacity: 0.8;
+}
 .box1 {
     width: 30%;
     margin: 10px;
@@ -18,7 +32,7 @@ body {
     position: absolute;
     border-radius: 50px;
     opacity: 0.8;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .box1 img {
@@ -28,27 +42,31 @@ body {
 .box2 img {
     background-color: whitesmoke;
     width: 300px;
-    margin: 20px;
 }
+.box2:hover {transform: scale(1.05);}
+
+.box2 {transition: transform 1s}
+
 .box2{
     
     width: 50%;
-    margin: 30px;
+    margin: 15px 0px 0px 30px;
     background-color: whitesmoke;
     right: 3%;
     text-align: center;
     display: inline-block;
-    position: absolute;
+    position: relative;
     border-radius: 50px;
     opacity: 0.8;
     overflow: hidden;
     font-family: 'Dancing Script', cursive;
+    font-size: 24px;
 }
 
 .box3 {
     width: 50%;
     position: absolute;
-    bottom: 5%;
+    bottom: 30%;
     left: 10%;
 }
 
